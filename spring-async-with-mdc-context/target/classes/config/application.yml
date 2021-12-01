@@ -1,0 +1,4 @@
+config:
+  async:
+    corePoolSize: 1
+    maxPoolSize: 1

@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "config.async.core-pool-size",
+    "type": "java.lang.String",
+    "description": "A description for 'config.async.core-pool-size'"
+  },
+  {
+    "name": "config.async.maxPoolSize",
+    "type": "java.lang.String",
+    "description": "A description for 'config.async.maxPoolSize'"
+  }
+]}

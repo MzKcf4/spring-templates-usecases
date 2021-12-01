@@ -1,0 +1,6 @@
+com\springtemplate\jpa\entity\EquipmentEntity_.class
+com\springtemplate\jpa\entity\EmployeeEntity_.class
+com\springtemplate\jpa\entity\EmployeeDetailEntity_.class
+com\springtemplate\jpa\entity\generator\GeneratorAutoEntity_.class
+com\springtemplate\jpa\entity\generator\GeneratorPoolLoEntity_.class
+com\springtemplate\jpa\entity\AbstractAuditableEntity_.class
