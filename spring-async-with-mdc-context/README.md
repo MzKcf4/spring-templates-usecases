@@ -1,4 +1,4 @@
-#Spring Async with SecurityContext and MDC delegation example
+# Spring Async with SecurityContext and MDC delegation example
 
 This project shows an example with Async processing from rest call , with options to preserve MDC and SecurityContext.
 
