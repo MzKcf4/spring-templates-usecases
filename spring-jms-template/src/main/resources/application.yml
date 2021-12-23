@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  
+config:
+  jms:
+    brokerA:
+    # using "tcp" instead of "vm" , other applications can also connect to this.
+      #url: tcp://localhost:61616
+      url: vm://localhost?broker.persistent=false
+      user: amq
+      password: amq
+    firstQueue: jms/FirstQueue
+    secondQueue: jms/SecondQueue
+    
+
+spring:
+  main:    allow-bean-definition-overriding: true
