@@ -11,6 +11,7 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     properties:
       hibernate:
+        show_sql: true
         hbm2ddl:
           # allow Hibernate to create DB table if doesn't exist
           auto: create-drop

@@ -25,7 +25,7 @@ public class SampleCbEntity {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
-	// 'mappedBy' indicates it's not relationship owner 
+	// 'mappedBy' indicates it's not relationship owner , the table in DB will NOT hold the SAMPLE_B_OID column
     @OneToMany(cascade=CascadeType.ALL, mappedBy="sampleCbEntity")
     private Set<SampleBEntity> sampleBEntitySet;
 	

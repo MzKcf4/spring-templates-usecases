@@ -16,6 +16,4 @@ public class SampleCEntity {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
-	
-	
 }

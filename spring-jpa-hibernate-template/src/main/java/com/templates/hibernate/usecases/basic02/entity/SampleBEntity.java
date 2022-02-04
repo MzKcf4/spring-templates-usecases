@@ -32,8 +32,6 @@ public class SampleBEntity {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
-	// When you also define association in EmployeeDetail , this becomes 'bidirectional association'.
-	//
 	// "mappedBy" : Signals Hibernate that the (foreign) key for the relationship is on the other side ( EmployeeDetailsEntity )
 	//				So it allows you to still link from the table not containing the constraint to the other table.
 	//				Can think as "current entity (EmployeeEntity) is mapped by "employee" field in EmployeeDetailEntity
@@ -51,8 +49,8 @@ public class SampleBEntity {
 	// ------------------- Undirectional @ManyToOne / @OneToMany relationship --------------- //
 	// Many of THIS entity can have 1 C Entity	
 	// A unidirectional association via a foreign key
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name = "SAMPLE_C_OID")		// Use this FK column to match the PK in SampleC table
+	@ManyToOne(fetch = FetchType.LAZY)		// Default EAGER
+	@JoinColumn(name = "SAMPLE_C_OID")		// Use THIS table's FK column on C to match the PK in SampleC table
 	private SampleCEntity sampleCEntity;
 	
 	

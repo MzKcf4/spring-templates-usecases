@@ -23,4 +23,6 @@
 hs_err_pid*
 *.prefs
 *.properties
+*.properties
 spring-jms-template/.classpath
+*.prefs
