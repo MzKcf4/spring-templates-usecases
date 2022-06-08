@@ -1,4 +1,4 @@
-package com.templates.usecases.messaging;
+package com.mz.templates.jms.messaging;
 
 import java.util.Map;
 
@@ -20,18 +20,18 @@ import lombok.extern.slf4j.Slf4j;
 
 /*
  * Standard JmsHeaders : 
-JMSDestination ¡V the destination where the message is sent.
-JMSReplyTo ¡V the JMS destination where the reply message should be sent.
-JMSDeliveryMode ¡V the delivery mode of the message. can be one of the following:
-PERSISTENT ¡V signifies the messages are stored and forwarded
-NON_PERSISTENT ¡V messages are not stored and may be lost due to failures in transmission.
-JMSMessageID ¡V the unique ID of the message.
-JMSTimestamp ¡V the time a message was handed off to a JMS provider to be sent. The time expressed at the amount of time, in milliseconds.
-JMSExpiration ¡V the expiration time of the message.
-JMSRedelivered ¡V typically this item is set when the JMS provider has delivered the message at least once before.
-JMSPriority ¡V the priority of the message. Priority is a value from 0-9. Higher numbers signify a higher priority (that is, 9 is a higher priority than 8).
-JMSCorrelationID ¡V this ID is used to link a response message with its related request message. This is usually the message ID of a request message when this field is found in a reply message.
-JMSType ¡V the JMS provider-supplied string to describe the type of the message. Some JMS providers use this property to define messages in the provider¡¦s repository. See the JMS provider documentation for more information about the use of this field.
+JMSDestination ï¿½V the destination where the message is sent.
+JMSReplyTo ï¿½V the JMS destination where the reply message should be sent.
+JMSDeliveryMode ï¿½V the delivery mode of the message. can be one of the following:
+PERSISTENT ï¿½V signifies the messages are stored and forwarded
+NON_PERSISTENT ï¿½V messages are not stored and may be lost due to failures in transmission.
+JMSMessageID ï¿½V the unique ID of the message.
+JMSTimestamp ï¿½V the time a message was handed off to a JMS provider to be sent. The time expressed at the amount of time, in milliseconds.
+JMSExpiration ï¿½V the expiration time of the message.
+JMSRedelivered ï¿½V typically this item is set when the JMS provider has delivered the message at least once before.
+JMSPriority ï¿½V the priority of the message. Priority is a value from 0-9. Higher numbers signify a higher priority (that is, 9 is a higher priority than 8).
+JMSCorrelationID ï¿½V this ID is used to link a response message with its related request message. This is usually the message ID of a request message when this field is found in a reply message.
+JMSType ï¿½V the JMS provider-supplied string to describe the type of the message. Some JMS providers use this property to define messages in the providerï¿½ï¿½s repository. See the JMS provider documentation for more information about the use of this field.
  * 
  * */
 

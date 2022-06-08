@@ -1,4 +1,4 @@
-package com.templates.usecases.config;
+package com.mz.templates.jms.config;
 
 import javax.jms.ConnectionFactory;
 import javax.jms.TextMessage;

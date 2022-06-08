@@ -1,12 +1,12 @@
-package com.templates.usecases;
+package com.mz.templates.jms;
 
 import org.springframework.beans.BeansException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.templates.usecases.messaging.SampleMessaging;
-import com.templates.usecases.messaging.SampleMessagingWithId;
+import com.mz.templates.jms.messaging.SampleMessaging;
+import com.mz.templates.jms.messaging.SampleMessagingWithId;
 
 @SpringBootApplication
 public class Application {

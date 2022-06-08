@@ -4,7 +4,7 @@ server:
 config:
   jms:
     brokerA:
-    # using "tcp" instead of "vm" , other applications can also connect to this.
+      #When using "tcp" instead of "vm" , other applications can also connect to this.
       #url: tcp://localhost:61616
       url: vm://localhost?broker.persistent=false
       user: amq
@@ -14,4 +14,5 @@ config:
     
 
 spring:
-  main:    allow-bean-definition-overriding: true
+  main:
+    allow-bean-definition-overriding: true

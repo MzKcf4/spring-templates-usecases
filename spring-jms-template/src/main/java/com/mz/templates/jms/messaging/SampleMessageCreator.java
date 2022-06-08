@@ -1,4 +1,4 @@
-package com.templates.usecases.messaging;
+package com.mz.templates.jms.messaging;
 
 import java.io.Serializable;
 import java.util.Map;

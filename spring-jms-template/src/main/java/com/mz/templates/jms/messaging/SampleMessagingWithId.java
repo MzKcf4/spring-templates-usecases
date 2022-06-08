@@ -1,4 +1,4 @@
-package com.templates.usecases.messaging;
+package com.mz.templates.jms.messaging;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
